@@ -1,0 +1,24 @@
+{
+  "name": "ractive-events-typing",
+  "version": "0.1.0",
+  "description": "RactiveJS Live typing plugin for beforetyping, typing, paused, stopped, events on textbox, textarea and editable div",
+  "main": "ractive-events-typing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesqe/ractive-events-typing.git"
+  },
+  "keywords": [
+    "ractive",
+    "events",
+    "typing"
+  ],
+  "author": "svapreddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesqe/ractive-events-typing/issues"
+  },
+  "homepage": "https://github.com/aesqe/ractive-events-typing#readme"
+}
