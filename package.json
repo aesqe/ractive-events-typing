@@ -1,6 +1,6 @@
 {
   "name": "ractive-events-typing",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "RactiveJS Live typing plugin for beforetyping, typing, paused, stopped, events on textbox, textarea and editable div",
   "main": "ractive-events-typing.js",
   "scripts": {
