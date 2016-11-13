@@ -1,25 +1,27 @@
-(function (global, factory) {
+var typingEvent = (function ( global, factory ) {
 
     "use strict";
 
     // Common JS (i.e. browserify) environment
-    if (typeof module !== "undefined" && module.exports && typeof require === "function") {
-        factory(require("ractive"));
+    if ( typeof module !== "undefined" && module.exports && typeof require === "function" ) {
+        factory( require( "ractive" ) );
     }
 
     // AMD?
-    else if (typeof define === "function" && define.amd) {
-        define(["ractive"], factory);
+    else if ( typeof define === "function" && define.amd ) {
+        define([ "ractive" ], factory );
     }
 
     // browser global
-    else if (global.Ractive) {
-        factory(global.Ractive);
-    } else {
-        throw new Error("Could not find Ractive! It must be loaded before the ractive-events-typing plugin");
+    else if ( global.Ractive ) {
+        factory( global.Ractive );
     }
 
-}(typeof window !== "undefined" ? window : this, function (Ractive) {
+    else {
+        throw new Error( "Could not find Ractive! It must be loaded before the Ractive-decorators-sortable plugin" );
+    }
+
+}( typeof window !== "undefined" ? window : this, function ( Ractive ) {
 
     "use strict";
 
@@ -131,6 +133,6 @@
 
 // Common JS (i.e. browserify) environment
 if ( typeof module !== "undefined" && module.exports) {
-    module.exports = typing;
+    module.exports = typingEvent;
 }
 
